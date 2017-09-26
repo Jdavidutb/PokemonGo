@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apinueva.Main2Activity">
+
+    <RelativeLayout
+        android:layout_width="397dp"
+        android:layout_height="511dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_marginRight="-7dp"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/VerInf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ButIniciar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="29dp"
+            android:text="velociad"
+            tools:layout_editor_absoluteX="172dp"
+            tools:layout_editor_absoluteY="218dp"/>
+
+        <Button
+            android:id="@+id/ButIniciar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="49dp"
+            android:text="Iniciar Batalla"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="344dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="35dp"
+            android:layout_marginEnd="35dp"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/VerInf"
+            android:layout_marginBottom="46dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:layout_toRightOf="@+id/textView2"
+            android:text="TextView"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
